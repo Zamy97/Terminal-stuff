@@ -52,6 +52,9 @@ To open a new tab in your terminal you can type 'CMD + T' and it'll open up a ne
 ## Open a file using your terminal.
 To open a file using your terminal, navigate to your file and type in ex: 'atom [.Filename]'. It should open up the file where you want it to open. 
 
+## Something to keep in mind about the '$' in your terminal.
+Type everying after '$' sign. Remember: Don't include the $ in your command. In addition, Whenever you see the $ in a command, that means it should be called in your computer's terminal.
+
 
 
 
