@@ -5,10 +5,10 @@
 Type 'git clone [Your Project Url]' in your terminal. Make sure you are in the folder that you want to save your project in. 
 
 ## Staging all your changes before commiting.
-Type 'git add .' ### or 'git add -A' and it'll stage all the changes that you made in your file and get it ready for you to push. 
+Type 'git add *' or 'git add -A' or 'git add .' and it'll stage all the changes that you made in your file and get it ready for you to push. 
 
 ## Committing your changes
-If you are committing the first time do so by 'git commit -m "your message". After that you can just type 'git commit' on your terminal to commit the changes.
+If you are committing the first time do so by 'git commit -m "[your message]" "your message". After that you can just type 'git commit' on your terminal to commit the changes.
 
 ## See the status of your git
 To see the status of your project using the terminal you can do by typing 'git status' in the terminal
@@ -22,4 +22,3 @@ If you ever change anything in your github repo, your project will create a new 
 ## Push your code to github from your terminal
 To push your code to github first time you can do so by doing this 'git push -u origin master' once the first push is done you can just push easily usinig 'git push'
 
-###
