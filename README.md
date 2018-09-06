@@ -17,7 +17,7 @@ To see the status of your project using the terminal you can do by typing 'git s
 To see the directiory path of your peoject you can see the path by typing 'git remote -v' on your terminal. It'll show you the path of 'push' and 'fetch'. In other words you can see where your code is going from your terminal.
 
 ## To change the directiory of your peoject
-If you ever change anything in your github repo, your project will create a new URL path for your project. you'll have to direct your peoject to the new URl path. However, before doing that you need to remove the other path of your project to your github. You can do so by 'git remote rm origin' then do 'git remote -v' to see what the directiory is. Then add the new url with the following 'git remote add origin [your new url]' and to see if it has changed you can do so by typing this 'git remote -v'.
+### If you ever change anything in your github repo, your project will create a new URL path for your project. you'll have to direct your peoject to the new URl path. However, before doing that you need to remove the other path of your project to your github. You can do so by 'git remote rm origin' then do 'git remote -v' to see what the directiory is. Then add the new url with the following 'git remote add origin [your new url]' and to see if it has changed you can do so by typing this 'git remote -v'.
 
 ## Push your code to github from your terminal
 To push your code to github first time you can do so by doing this 'git push -u origin master' once the first push is done you can just push easily usinig 'git push'
@@ -36,6 +36,18 @@ To create a folder in your project you can do so by doing the following: 'mkdir 
 
 ## Going backward in the terminal
 To see what the previous folder you were in you can see that by trying the following 'cd ..'
+
+## See what's inside a folder
+To see what you have inside a certain folder you can do the following: 'ls' in your terminal. And It'll list everything that you have inside of something that you are trying to see.
+
+## See the working directiory
+To see what the directiory you are in you can see the whole path by typing the follwoing in your terminal: 'pwd'. Which stands for "Print Working Directiory"
+
+## Reset your terminal
+To reset your terminal you can do so by typing the follwoing: 'ctrl + c'
+
+## Open a new tab in your terminal
+
 
 
 
