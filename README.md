@@ -2,7 +2,7 @@
 # I am going to be saving all the stuff that I learn about terminal in this repo.
 
 ## Cloning a project using URL
-Type **'git clone [Your Project Url]'**  in your terminal. Make sure you are in the folder that you want to save your project in. 
+Type ##**'git clone [Your Project Url]'**##  in your terminal. Make sure you are in the folder that you want to save your project in. 
 
 ## Staging all your changes before commiting.
 Type 'git add *' or 'git add -A' or 'git add .' and it'll stage all the changes that you made in your file and get it ready for you to push. 
