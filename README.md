@@ -31,4 +31,11 @@ To make sure you are not pushing the sensitive stuff on github, you can add a gi
 ## Create a file using the terminal
 To create a file in your project do the following 'touch [Filename]'. Make sure you are in the right folder and creating the file where you want it to be. 
 
+## Create a folder in your project
+To create a folder in your project you can do so by doing the following: 'mkdir [Folder name]'. Make sure you are in the right project and you are creating your folder where you want it to be. 
+
+## Going backward in the terminal
+To see what the previous folder you were in you can see that by trying the following 'cd ..'
+
+
 
