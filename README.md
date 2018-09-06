@@ -57,14 +57,14 @@ To open a file using your terminal, navigate to your file and type in ex: **'ato
 Type everying after '$' sign. Remember: Don't include the $ in your command. In addition, Whenever you see the $ in a command, that means it should be called in your computer's terminal.
 
 ## Add a local project to an empty repo on Github.
-You can add your local project to github remotely instead of cloning the project. To do so do the following: 
-•Creat your project in your local computer
-•Type **'git init'** on your terminal to create a git file in your project. Make sure you are in the right folder.
-•Type 'git add -A' to stage everything to get it ready to commit.
-•Now create an empty repo on Github with a similar name. Don't name it the same as your project. It'll be confusing moving forward.
-•Copy the URL of that empty repo.
-•Type 'git remote add [project URL]' in your terminal. It'll connect your local project to github empty repo.
-•To push code for the first time. Type 'git push origin master -u' and it'll push every single changes in your github.
+* • You can add your local project to github remotely instead of cloning the project. To do so do the following: 
+* • Creat your project in your local computer
+• Type **'git init'** on your terminal to create a git file in your project. Make sure you are in the right folder.
+• Type 'git add -A' to stage everything to get it ready to commit.
+• Now create an empty repo on Github with a similar name. Don't name it the same as your project. It'll be confusing moving forward.
+• Copy the URL of that empty repo.
+• Type 'git remote add [project URL]' in your terminal. It'll connect your local project to github empty repo.
+• To push code for the first time. Type 'git push origin master -u' and it'll push every single changes in your github.
 
 ## Commit a specific file 
 To commit a specific file you do the following: 'git add [File name]' {you could do more than one}  -> 'git commit -m "[Message]"
