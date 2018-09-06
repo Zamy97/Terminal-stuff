@@ -27,3 +27,8 @@ To get rid of the unnecessary .DS.Store do the following in the terminal 'git rm
 
 ## Add gitignore file in your project
 To make sure you are not pushing the sensitive stuff on github, you can add a gitignore file in your project and it'll not push everything on github.
+
+## Create a file using the terminal
+To create a file in your project do the following 'touch [Filename]'. Make sure you are in the right folder and creating the file where you want it to be. 
+
+
