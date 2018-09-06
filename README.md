@@ -22,3 +22,8 @@ If you ever change anything in your github repo, your project will create a new 
 ## Push your code to github from your terminal
 To push your code to github first time you can do so by doing this 'git push -u origin master' once the first push is done you can just push easily usinig 'git push'
 
+## Get rid of .DS.Store in your project
+To get rid of the unnecessary .DS.Store do the following in the terminal 'git rm --cached .DS.Store' it'll get rid of that file in your repo project. 
+
+## Add gitignore file in your project
+To make sure you are not pushing the sensitive stuff on github, you can add a gitignore file in your project and it'll not push everything on github.
