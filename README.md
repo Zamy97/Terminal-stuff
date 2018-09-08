@@ -8,7 +8,7 @@ Type **'git clone [Your Project Url]'**  in your terminal. Make sure you are in 
 Type **'git add *'** or **'git add -A'** or **'git add .'** and it'll stage all the changes that you made in your file and get it ready for you to push. 
 
 ## Committing your changes
-If you are committing the first time do so by **'git commit -m "[your message]"**.
+If you are committing the first time do so by **'git commit -m "[your message]"**. However, make sure to add a message everytime you commit or else it might get messed up.
 
 ## See the status of your git
 To see the status of your project using the terminal you can do by typing **'git status'** in the terminal
@@ -20,7 +20,7 @@ To see the directiory path of your peoject you can see the path by typing **'git
 If you ever change anything in your github repo, your project will create a new URL path for your project. you'll have to direct your peoject to the new URl path. However, before doing that you need to remove the other path of your project to your github. You can do so by **'git remote rm origin'** then do **'git remote -v'** to see what the directiory is. Then add the new url with the following **'git remote add origin [your new url]'** and to see if it has changed you can do so by typing this **'git remote -v'**
 
 ## Push your code to github from your terminal
-To push your code to github first time you can do so by doing this 'git push -u origin master' once the first push is done you can just push easily usinig **'git push'**
+To push your code to github first time you can do so by doing this **'git push -u origin master'** once the first push is done you can just push easily usinig **'git push'**
 
 ## Get rid of a foler and a file in your project
 To get rid of the unnecessary files do the following in the terminal **'git rm --cached [your file name]'** it'll get rid of that file in your repo project. 
