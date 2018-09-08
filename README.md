@@ -27,7 +27,6 @@ To get rid of the unnecessary files do the following in the terminal **'git rm -
 To get rid of a folder in your repo you do the following: **'git rm -r --cached [your folder name]'** 
 In addition you can do **'git rm -r [your folder name]** and **'git rm [Your file name]'** that will get rid of the folder and file from your project.
 
-
 ## Add gitignore file in your project
 To make sure you are not pushing the sensitive stuff on github, you can add a gitignore file in your project and it'll not push everything on github.
 
@@ -37,8 +36,6 @@ To create a file in your project do the following **'touch [Filename]'**. Make s
 ## Create a folder in your project
 To create a folder in your project you can do so by doing the following: **'mkdir [Folder name]'**. Make sure you are in the right project and you are creating your folder where you want it to be. 
 
-## Create a new file in your project.
-To create a new file inside your project using terminal you can do so by doing the following: **'touch [File name]'** and that should create new file in your project.
 
 ## Going backward in the terminal
 To see what the previous folder you were in you can see that by trying the following **'cd ..'**.
@@ -72,7 +69,7 @@ You can add your local project to github remotely instead of cloning the project
 * To push code for the first time. Type **'git push origin master -u'** and it'll push every single changes in your github.
 
 ## Commit a specific file 
-To commit a specific file you do the following: 'git add [File name]' {you could do more than one}  -> 'git commit -m "[Message]"
+To commit a specific file you do the following: **'git add [File name]'** {you could do more than one}  -> **'git commit -m "[Message]"**
 
 ## Open up finder with the current working directiory
 To open your current working directiory using the terminal do the following: **open .**
