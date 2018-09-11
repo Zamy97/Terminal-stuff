@@ -64,7 +64,7 @@ You can add your local project to github remotely instead of cloning the project
 * Type **'git init'** on your terminal to create a git file in your project. Make sure you are in the right folder.
 * Type **'git add -A'** to stage everything to get it ready to commit.
 * Now create an empty repo on Github with a similar name. Don't name it the same as your project. It'll be confusing moving forward.
-* Copy the URL of that empty repo.
+* Copy the **URL** of that empty repo.
 * Type **'git remote add [project URL]'** in your terminal, It'll connect your local project to github empty repo.
 * To push code for the first time. Type **'git push origin master -u'** and it'll push every single changes in your github.
 
