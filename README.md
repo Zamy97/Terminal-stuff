@@ -77,5 +77,8 @@ To open your current working directiory using the terminal do the following: **o
 ## Create bullet points on anywhere
 Do **option + 8** to create a list using bullet points.
 
+## Get out of the python interpreter from the terminal
+To get out of the python interpreter type **exit()** in your terminal and it'll exit out of it. 
+
 
 
