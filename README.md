@@ -94,6 +94,8 @@ Do: **pytest -v file_name.py**
 ## Test one specific file:
 type: **pytest file_name.py**
 
+## Stop at the first failed method in a specific file.
+Type: **pytest -x file_name.py**
 
 
 
