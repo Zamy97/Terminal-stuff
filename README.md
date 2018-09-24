@@ -80,5 +80,12 @@ Do **option + 8** to create a list using bullet points.
 ## Get out of the python interpreter from the terminal
 To get out of the python interpreter type **exit()** in your terminal and it'll exit out of it. 
 
+# A bit about Pytest!
+
+## Test a specific method
+To test a specific method type **File_name.py::test method_name**
+
+
+
 
 
