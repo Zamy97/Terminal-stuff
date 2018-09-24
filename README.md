@@ -83,7 +83,15 @@ To get out of the python interpreter type **exit()** in your terminal and it'll 
 # A bit about Pytest!
 
 ## Test a specific method
-To test a specific method type **File_name.py::test method_name**
+To test a specific method type **File_name.py::test_method_name**
+
+## See what passes and stop at the first failed method.
+To see what methods passes and let the test stop at the first failed one type: **pytest -v -x file_name.py**
+
+## To get all the details about the pytest
+Do: **pytest -v file_name.py**
+
+
 
 
 
