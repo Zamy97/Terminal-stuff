@@ -91,6 +91,10 @@ To see what methods passes and let the test stop at the first failed one type: *
 ## To get all the details about the pytest
 Do: **pytest -v file_name.py**
 
+## Test one specific file:
+type: **pytest file_name.py**
+
+
 
 
 
