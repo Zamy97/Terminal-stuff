@@ -97,8 +97,8 @@ type: **pytest file_name.py**
 ## Stop at the first failed method in a specific file.
 Type: **pytest -x file_name.py**
 
-## Git pull from a remote to your local repo
-If you make any changes on another computer and want to pull the changes in your local repo your 'git pull origin' might not work! so you have to do **git pull origin master --allow-unrelated-histories** and then **git push origin master**
+## Git pull from a remote( github repo ) to your local repo on your computer
+If you make any changes on another computer and want to pull the changes in your local repo your 'git pull origin' might not work! so you have to do **git pull origin master --allow-unrelated-histories** and then **git push -u origin master**
 
 
 
