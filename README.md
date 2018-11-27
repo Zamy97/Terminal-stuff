@@ -112,5 +112,13 @@ To switch branch you can do the following command **git checkout master** and th
 ## Merge a branch with master
 To merge your branch with the master you can do the following command: **git merge [your branch name] ex: develop**
 
+## See all the branches 
+To see all the branches that exists in your project type the following command: **git branch** and it'll show what branch you are on as well all the other branches that exists in your project. To get out of it press **q**
+
+## Vim stuff
+To use the vim and type in stuff inside a file wihtout opening atom you can do **vi [file name]** then press **i** to insert text then press **esc** to get out of it and then hold **shift** then press **zz** that will get you out of the program and get you back to the terminal. 
+
+## See your command history
+Type history in your terminal and you should be able to see all the commands that you have types in there. 
 
 
