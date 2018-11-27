@@ -100,8 +100,17 @@ Type: **pytest -x file_name.py**
 ## Git pull from a remote( github repo ) to your local repo on your computer
 If you make any changes on another computer and want to pull the changes in your local repo your 'git pull origin' might not work! so you have to do **git pull origin master --allow-unrelated-histories** and then **git push -u origin master**
 
+## Create a Branch on your project!
+To create a new branch on your project use **git checkout -b develop** this will create a branch call **develop**
 
+## Push the changes to your branch
+If you make any changes on your branch you will have to push them to your branch. Make sure to do **git add .** then **git commit -m "something"** then **git push origin [your branch name]**
 
+## Switch Branch
+To switch branch you can do the following command **git checkout master** and this will take you to **master** branch.
+
+## Merge a branch with master
+To merge your branch with the master you can do the following command: **git merge [your branch name] ex: develop**
 
 
 
