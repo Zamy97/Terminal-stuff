@@ -121,4 +121,5 @@ To use the vim and type in stuff inside a file wihtout opening atom you can do *
 ## See your command history
 Type history in your terminal and you should be able to see all the commands that you have types in there. 
 
-
+## Run a python3 file in the python interpreter
+To open your python file in the interpreter run this command **python3 -i [File_Name]**
