@@ -123,3 +123,6 @@ Type history in your terminal and you should be able to see all the commands tha
 
 ## Run a python3 file in the python interpreter
 To open your python file in the interpreter run this command **python3 -i [File_Name]**
+
+## Tests the doc-tests from your file in the pyton interpreter
+To tests whether if the doc-tests passes by providing some value run this command **python3 -m doctests [File_name]** To see details of the doc tests run this command **python3 -m doctest -v [File_name]
